@@ -1,0 +1,57 @@
+*{
+    background: url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1605&q=80") no-repeat center center fixed;
+    color: white;
+    background-size: cover;
+}
+
+.App{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    background: aliceblue;
+    color:#2a4c9c;
+    text-align: center;
+}
+
+.change-button{
+    max-width: 50%;
+    max-height: auto;
+    float: right;
+    border-radius: 8px;
+}
+
+.scoreboard {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 4px solid whitesmoke;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.scoreboard button {
+  background-color: white;
+  color: white;
+  border: 2px solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 4px;
+  border-radius: 8px;
+}
+
+.scoreboard h2{
+    font-size: 20px;
+}
+
+.score-display{
+    font-size: 30px;
+}
+
+
+
+
